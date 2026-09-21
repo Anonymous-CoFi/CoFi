@@ -10,8 +10,6 @@ framework for long-video question answering.
   <img src="figure/overview.png" width="100%" alt="Overview of CoFi" />
 </p>
 
-<p align="center"><a href="figure/overview.pdf">View the framework figure as PDF</a></p>
-
 ## Introduction
 
 Video-LLMs can process only a limited number of visual units from a long
