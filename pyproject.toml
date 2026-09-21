@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cofi-videoqa"
+version = "0.1.0"
+description = "Compress First, Focus Later for training-free long-video question answering"
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+  "numpy==2.2.6",
+  "opencv-python==4.11.0.86",
+  "Pillow==12.3.0",
+  "decord==0.6.0",
+  "pandas==2.3.3",
+  "pyarrow==25.0.0",
+  "torch==2.5.1",
+  "torchvision==0.20.1",
+  "transformers==4.49.0",
+  "tokenizers==0.21.4",
+  "accelerate==1.14.0",
+  "huggingface-hub==0.36.2",
+  "safetensors==0.8.0",
+  "sentencepiece==0.2.0",
+  "einops==0.8.2",
+  "timm==1.0.19",
+  "av==17.1.0",
+  "bitsandbytes==0.45.5",
+  "protobuf==7.35.1",
+]
+
+[project.scripts]
+cofi = "cofi.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

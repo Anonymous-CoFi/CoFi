@@ -1,0 +1,22 @@
+{
+  "candidate_fps": 1.0,
+  "encoder": "google/siglip-so400m-patch14-384",
+  "encoder_revision": "9fdffc58afc957d1a03a25b10dba0329ab15c2a3",
+  "panel_canvas_size": 384,
+  "panel_cell_size": 192,
+  "context_panels": 4,
+  "frames_per_panel": 4,
+  "focus_units": 28,
+  "candidate_mass": 0.8,
+  "state_weight": 0.5,
+  "trajectory_radius": 1,
+  "trajectory_stride": 1,
+  "bandwidth_multiplier": 1.0,
+  "focus_noise": 1e-6,
+  "jitter": 1e-6,
+  "max_scale_rows": 2048,
+  "video_llm": "lmms-lab/LLaVA-Video-7B-Qwen2",
+  "video_llm_revision": "013210b3aff822f1558b166d39c1046dd109520f",
+  "do_sample": false,
+  "max_new_tokens": 16
+}
